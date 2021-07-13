@@ -1,0 +1,20 @@
+.grid {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-gap: 3px 3px;
+}
+
+.grid-item {
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 2em;
+    border: 1px solid black;
+}
+
+.symbol {
+    background-color: rgba(255, 166, 0, 0.849);
+    color: white;
+    font-weight: bolder;
+}
